@@ -1,0 +1,285 @@
+/* container */
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+    padding: 16px calc(94 / 1440 * 100%);
+    background-color: #012426;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #05BCCA;
+
+}
+
+/* nav */
+.header_ul {
+    display: flex;
+    column-gap: 72px;
+}
+
+.header_li {
+    position: relative;
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* hover */
+.header_li:after {
+    content: "";
+    position: absolute;
+    background-color: #05BCCA;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.header_li:hover {
+    color: white;
+}
+
+.header_li:hover:after {
+    width: 100%;
+}
+
+.guitar {
+    width: 64px;
+    height: 64px;
+}
+
+/* header div */
+.header_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 42px;
+
+}
+
+.header_div2 {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+
+}
+
+.header_article {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+}
+
+.fa-magnifying-glass {
+    font-size: 24px;
+    color: #05BCCA;
+}
+
+/* hover */
+.fa-magnifying-glass:hover {
+    font-size: 30px;
+
+}
+
+.header_p {
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.fa-chevron-down {
+    font-size: 13px;
+    color: #05BCCA;
+}
+
+.fa-chevron-down:hover {
+    box-shadow: 0 0 20px;
+}
+
+.user {
+    color: #05BCCA;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+}
+
+.user:hover {
+    background-color: #05BCCA;
+    color: #012426;
+}
+
+.cart {
+    color: #05BCCA;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+
+}
+
+.cart:hover {
+    box-shadow: 0 0 20px;
+}
+
+/* section1 */
+.section1 {
+    top: 200px;
+    display: flex;
+    margin-top: 97.6px;
+    padding: 36px calc(444 / 1440 * 100%);
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+
+.section1_article {
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #05BCCA;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+/* section2 */
+.section2 {
+    position: relative;
+    height: 480px;
+}
+
+.guitar_cover {
+    width: 100%;
+    height: 100%;
+}
+
+.section2_div {
+    position: absolute;
+    top: 72px;
+    left: calc(546 / 1440 * 100%);
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.collection {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.guitar_collection {
+    color: #05BCCA;
+}
+
+.fa-arrow-right {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #C46A2B;
+    color: #FFF;
+
+}
+
+.section2_left {
+    padding: 20px;
+    border-radius: 4px;
+    background: #C46A2B;
+    position: absolute;
+    left: 94px;
+    bottom: 204px;
+    color: #FFF;
+}
+
+.section2_right {
+    padding: 20px;
+    border-radius: 4px;
+    background: #C46A2B;
+    position: absolute;
+    right: 94px;
+    bottom: 204px;
+    color: #FFF;
+}
+
+/*  hovers */
+.fa-arrow-right:hover {
+    color: #05BCCA;
+}
+
+.section2_right:hover {
+    color: #05BCCA;
+}
+
+.section2_left:hover {
+    color: #05BCCA;
+}
+
+/* section3 */
+.section3 {
+    padding: 96px calc(306 / 1440 * 100%);
+    background-color: #012426;
+
+}
+
+.section3_div {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section3_article {
+    width: 404px;
+    height: 240px;
+    position: relative;
+}
+
+.section3_guitar {
+    width: 100%;
+    height: 100%;
+}
+
+.section3_p {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}
