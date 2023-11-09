@@ -5,7 +5,7 @@
 }
 
 /* header */
-header {
+.main_header {
     position: fixed;
     max-width: inherit;
     width: inherit;
