@@ -6,13 +6,13 @@
 
 /* header */
 .main_header {
-    position: fixed;
+    /* position: fixed;
     max-width: inherit;
     width: inherit;
     left: 50%;
     transform: translateX(-50%);
     top: 0;
-    z-index: 1;
+    z-index: 1; */
     padding: 16px calc(94 / 1440 * 100%);
     background-color: #012426;
     display: flex;
@@ -20,6 +20,13 @@
     justify-content: space-between;
     border-bottom: 2px solid #05BCCA;
 
+}
+/* burger */
+.burger,
+.fa-xmark {
+    display: none;
+    font-size: 40px;
+    color: white;
 }
 
 /* nav */
@@ -153,7 +160,6 @@
 .section1 {
     top: 200px;
     display: flex;
-    margin-top: 97.6px;
     padding: 36px calc(444 / 1440 * 100%);
     justify-content: center;
     align-items: center;
@@ -880,8 +886,6 @@ footer {
 .section_contact {
     position: relative;
     height: 720px;
-    top: 98px;
-    margin-bottom: 98px;
 }
 
 .contact_div {
