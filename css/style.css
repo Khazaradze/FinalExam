@@ -173,7 +173,7 @@
     line-height: 37px;
 }
 
-.section1_article_active{
+.section1_article_active {
     display: flex;
     padding: 18px 24px;
     justify-content: center;
@@ -621,7 +621,6 @@ footer {
     background-color: #2C4246;
     padding: 48px 306px 152px 306px;
     position: relative;
-    
 }
 
 .footer_div {
@@ -704,7 +703,8 @@ footer {
     font-size: 20px;
     color: #D9D9D9;
 }
-.fa-copyright:hover{
+
+.fa-copyright:hover {
     color: #05BCCA;
 }
 
@@ -763,13 +763,13 @@ footer {
     line-height: 32px;
 }
 
-.usd{
+.usd {
     color: #05BCCA;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; 
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
 }
 
 .best_selling {
@@ -799,13 +799,14 @@ line-height: 27px;
 
 /* card */
 
-.card_p{
+.card_p {
     color: #D9D9D9;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 27px; /* 168.75% */
+    line-height: 27px;
+    /* 168.75% */
 }
 
 
@@ -845,8 +846,8 @@ line-height: 27px;
     background-color: #C46A2B;
 }
 
-.previous_next:hover{
-background: #05BCCA;
+.previous_next:hover {
+    background: #05BCCA;
 }
 
 .previous {
@@ -866,11 +867,168 @@ background: #05BCCA;
     font-weight: 400;
     line-height: 24px;
 }
-.chevron_buttons{
+
+.chevron_buttons {
     font-size: 24px;
     color: #D9D9D9;
 }
-.chevron_buttons:hover{
+
+.chevron_buttons:hover {
     color: #05BCCA;
 }
 
+/* contact */
+.section_contact {
+    width: 1440px;
+    height: 720px;
+    background: url("../imgs/Rectangle\ 7\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    margin-top: 96px;
+  }
+  
+  .contact_h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  
+  .contact_section {
+    display: flex;
+    width: 616px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .contact_div {
+    display: flex;
+    width: 616px;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 228px;
+    background: #2C4246;
+    margin-top: 40px;
+  }
+  
+  .empty {
+    width: 50%;
+  }
+  
+  .contactcontainer p {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .mapcontainer {
+    display: flex;
+  }
+  
+  .mail_icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .phone_icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+  }
+  
+  .form {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  #name {
+    width: 44%;
+    padding: 6px 0 6px 8px;
+    align-items: center;
+    background: #2C4246;
+    border: none;
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  #email {
+    width: 43%;
+    padding: 6px 0 6px 8px;
+    align-items: center;
+    background: #2C4246;
+    border: none;
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    
+  }
+  
+  
+  .textarea {
+    width: 89%;
+    height: 103px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 30px;
+    background: #2C4246;
+    border: none;
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+
+  }
+  
+  .sendMessage {
+    display: inline-flex;
+    padding: 8px 73px;
+    justify-content: center;
+    align-items: center;
+    background: #C46A2B;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    margin-top: 30px;
+  }
+  
+  .map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+  }
+  
+  .contactsocials2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 8px;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+
+  .social_icon:hover{
+    color:#05BCCA ;
+  }
+
+ 
