@@ -1,0 +1,34 @@
+@media (max-width: 1030px) {
+    .second_responsive {
+        display: none;
+    }
+    
+    .previous{
+        display: none;
+    }
+
+    /* section3 */
+   
+    .section3_article {
+        width: 330px;
+        height: 240px;
+    }
+    /* section7 */
+    .section_7{
+        row-gap: 40px;
+    }
+
+}
+@media (max-width: 800px) {
+    .footer_container{
+        column-gap: 149px;
+
+    }
+
+    .section7{
+        padding: 48px 32px;
+
+    }
+    
+
+}
