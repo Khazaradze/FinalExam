@@ -1,5 +1,5 @@
 @media (max-width: 1030px) {
-    .second_responsive {
+    .responsive_2 {
         display: none;
     }
     
@@ -14,7 +14,7 @@
         height: 240px;
     }
     /* section7 */
-    .section_7{
+    .section7{
         row-gap: 40px;
     }
 

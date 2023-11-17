@@ -32,28 +32,34 @@
     .header_div{
         column-gap: 16px;
     }
+
     .header_div_2{
         column-gap: 16px;
     }
+
     .fa-magnifying-glass{
         font-size: 32px;
     }
+
     .user{
         font-size: 16px;
     }
+
     .cart{
         font-size: 16px;
     }
+
     .guitar{
         width: 40px;
         height: 40px;
 
     }
+
     .section1{
         padding: 16px 0;
     }
 
-    /* section2     */
+    /* section2 */
     .section2_left {
         display: none;
     }
@@ -68,6 +74,7 @@
     }
 
     /* section3 */
+
     .section3_div_2{
         width: 50%;
         justify-content: space-between;
@@ -83,9 +90,11 @@
     }
 
     /* section4 */
+
     .section4{
         padding: 48px 0;
     }
+
     .popular {
         font-size: 24px;
         line-height: 32px
@@ -96,6 +105,7 @@
     }
 
     /* section5 */
+
     .section5{
         padding: 48px 0;
     }
@@ -114,10 +124,14 @@
         row-gap: 24px;
         
     }
+
     /* section7 */
+    
     .section7{
         padding: 32px 16px;
     }
+
+
     /* section8 */
     .contact_div{
         top: 32px;
@@ -143,6 +157,9 @@
     .contact_article{
         padding: 16px 92px;
         column-gap: 24px;
+        width: 295px;
+        height: 56px;
+
     }
 
     .contact_div2{
@@ -188,7 +205,7 @@
         width: 266px;
     }
     
-    .third_responsive {
+    .responsive_3 {
         display: none;
     }
 
@@ -204,6 +221,12 @@
 
     /* section1 */
     .section1_article {
+        padding: 8px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section1_article_active{
         padding: 8px;
         font-size: 16px;
         line-height: 24px;

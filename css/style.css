@@ -22,7 +22,6 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #05BCCA;
-
 }
 
 /* burger */
@@ -30,7 +29,7 @@
 .fa-xmark {
     display: none;
     font-size: 40px;
-    color: white;
+    color: #05BCCA;
 }
 
 /* nav */
@@ -65,16 +64,6 @@
 
 }
 
-.header_p {
-    color: #A1C3C9;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 37px;
-}
-
-
 /* hover */
 .header_li:after {
     content: "";
@@ -93,6 +82,24 @@
 
 .header_li:hover:after {
     width: 100%;
+}
+
+.header_p {
+    color: #2C4246;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.header_p2 {
+    color: #A1C3C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
 }
 
 .guitar {
@@ -126,15 +133,6 @@
     display: flex;
     align-items: center;
     column-gap: 4px;
-}
-
-.lan_val {
-    color: #2C4246;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 37px;
 }
 
 .fa-magnifying-glass {
@@ -209,7 +207,7 @@
     align-items: center;
     border: 1px solid #05BCCA;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
@@ -222,7 +220,7 @@
     align-items: center;
     border: 1px solid #05BCCA;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
@@ -255,7 +253,7 @@
 
 .collection {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 36px;
@@ -343,7 +341,7 @@
     top: 16px;
     left: 16px;
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
@@ -362,7 +360,7 @@
 
 .popular {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -420,7 +418,7 @@
 
 .section4_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -450,7 +448,7 @@
 
 .review {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -476,7 +474,7 @@
 
 .dollar {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -495,7 +493,7 @@
 
 .news {
     color: #C46A2B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -547,7 +545,7 @@
 .section5_p2 {
     display: none;
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -557,7 +555,7 @@
 
 .show_more_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -615,7 +613,7 @@
 
 .section6_p {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -635,7 +633,7 @@
     padding-right: 240px;
     height: 48px;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -659,7 +657,7 @@
     position: absolute;
     right: 0px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -678,7 +676,7 @@ footer {
     position: relative;
 }
 
-.footer_container{
+.footer_container {
     display: flex;
     column-gap: 223px;
     margin: auto;
@@ -692,7 +690,7 @@ footer {
 
 .footer_h2 {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -708,7 +706,7 @@ footer {
 
 .footer_p1 {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -717,7 +715,7 @@ footer {
 
 .footer_p2 {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -771,7 +769,7 @@ footer {
 
 .copyright_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -792,7 +790,9 @@ footer {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    
 }
+
 
 .filter {
     display: flex;
@@ -817,7 +817,7 @@ footer {
 
 .filter_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -826,7 +826,7 @@ footer {
 
 .usd {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -846,7 +846,7 @@ footer {
 
 .best_selling_p {
     color: #2C4246;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -860,9 +860,14 @@ footer {
 
 /* card */
 
+.card {
+    padding: 0;
+    flex: 1 0;
+}
+
 .card_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 27px;
@@ -872,7 +877,7 @@ footer {
 .card_div {
     padding: 0 8px 16px 8px;
     display: flex;
-    width: 298px;
+
     flex-direction: column;
     align-items: flex-start;
     row-gap: 16px;
@@ -881,8 +886,6 @@ footer {
 
 .section7_cards {
     display: flex;
-    width: 1252px;
-    height: 1720px;
     flex-wrap: wrap;
     gap: 40px 20px;
 }
@@ -911,7 +914,7 @@ footer {
 
 .previous {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -920,7 +923,7 @@ footer {
 
 .pages {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -955,7 +958,7 @@ footer {
 
 .contact_h2 {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -1060,7 +1063,7 @@ footer {
 
 .mail_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1084,7 +1087,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1099,7 +1102,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -1113,7 +1116,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -1127,7 +1130,7 @@ footer {
     align-items: center;
     background-color: #C46A2B;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
